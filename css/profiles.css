@@ -1,0 +1,35 @@
+.profiles .content > .items > .item {
+    padding-bottom: 30px;
+}
+
+.profiles .content > .items > .item > .title {
+    display: block;
+    color: #37A7FF;
+    position: relative;
+    padding-left: 40px;
+}
+
+.profiles .content > .items > .item > .title::before {
+    content: '';
+    top: 50%;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateY(-50%);
+}
+
+.profiles .content > .items > .item > .github::before,
+.profiles .content > .items > .item > .skype::before,
+.profiles .content > .items > .item > .fl::before {
+    background-image: url('../img/profiles/github.svg');
+}
+
+.profiles .content > .items > .item > .description {
+    padding-top: 15px;
+    color: #868889;
+}

@@ -1,0 +1,25 @@
+
+header .aside > img {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header .content > h1 p {
+    margin: 0;
+    padding: 0;
+}
+
+header .content > h1 p:nth-child(1) {
+    color: #A4A5A6;
+
+}
+
+header .content > h1 p:nth-child(2) {
+    color: #37A7FF;
+    font-weight: 700;
+}
+
+header .content > h1 p:nth-child(3) {
+    color: #868889;
+}

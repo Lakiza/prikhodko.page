@@ -1,0 +1,4 @@
+1) Text for every section of the website
+2) Correct font-size everywhere
+3) Add fix social links (and icons)
+4) Header - make aside's image centered by vertical

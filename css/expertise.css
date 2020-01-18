@@ -1,0 +1,28 @@
+.expertise .content > .items > .item {
+    white-space: nowrap;
+    padding-bottom: 30px;
+}
+
+.expertise .content > .items > .item > .number {
+    color: #37A7FF;
+} 
+
+.expertise .content > .items > .item > .wrapper {
+    white-space: normal;
+    max-width: 400px;
+}
+
+.expertise .content > .items > .item > .number,
+.expertise .content > .items > .item > .wrapper {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.expertise .content > .items > .item > .wrapper > .label {
+    font-weight: 500;
+    color: #A4A5A6;
+}
+
+.expertise .content > .items > .item > .wrapper > .value {
+    color: #868889;
+}

@@ -1,0 +1,47 @@
+.bg-primary-aside {
+    background-color: #2B2C2C;
+}
+
+.bg-primary-content {
+    background-color: #2D2E2E;
+}
+
+.bg-secondary-aside {
+    background-color: #292A2A;
+}
+
+.bg-secondary-content {
+    background-color: #2B2C2C;
+}
+
+.aside,
+.content {
+    padding: 5vh 5vw;
+}
+
+.aside .title {
+    font-weight: 700;
+    color: #A4A5A6;
+}
+
+.aside .description {
+    color: #868889;
+}
+
+.divider {
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: rgba(164, 165, 166, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+.info-block > .label {
+    color: #A4A5A6;
+    font-weight: 500;
+}
+
+.info-block > .value {
+    color: #868889;
+}

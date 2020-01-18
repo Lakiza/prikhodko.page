@@ -1,0 +1,30 @@
+.skills .content > .items > .item {
+    padding-bottom: 30px;
+}
+
+.skills .content > .items > .item > .header {
+    padding-bottom: 10px;
+}
+
+.skills .content > .items > .item > .header > .percentage,
+.skills .content > .items > .item > .header > .title {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.skills .content > .items > .item > .header > .percentage {
+    color: #37A7FF;
+}
+
+.skills .content > .items > .item > .header > .percentage::after {
+    content: '%';
+    padding-right: 15px;
+}
+
+.skills .content > .items > .item > .header > .title {
+    color: #A4A5A6;
+}
+
+.skills .content > .items > .item > .progress {
+    height: 3px;
+}
